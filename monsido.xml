@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_MONSIDO</name>
+	<version>1.0.0.0</version>
+	<creationDate>2017</creationDate>
+	<author>Monsido</author>
+	<authorEmail>info@monsido.com</authorEmail>
+	<authorUrl>www.monsido.com</authorUrl>
+	<copyright>Monsido</copyright>
+	<license>GPL</license>
+	<description>PLG_SYSTEM_MONSIDO_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="monsido">monsido.php</filename>
+		<filename>index.html</filename>	
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_monsido.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_monsido.sys.ini</language>
+	</languages>
+</extension>
